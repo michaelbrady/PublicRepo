@@ -1,0 +1,11 @@
+import java.util.Scanner;
+public class class1 {
+	public static void main(String args[]) {
+		int y, z;
+		Scanner scn = new Scanner(System.in);
+		y = scn.nextInt();
+		z = (y * 2);
+		System.out.println("You have entered: " +y);
+		System.out.println("..Which when doubled, equals: " +z);
+	}
+}
