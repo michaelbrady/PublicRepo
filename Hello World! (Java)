@@ -1,0 +1,11 @@
+
+public class class1 {
+	public static void main(String args[]) {
+		int x = (8 * 42);
+		int y = (x * 2);
+		System.out.println("hey world idiot");
+		System.out.println("second line\n\n");
+		System.out.println("fifth line. Nothing in lines 3 and 4.");
+		System.out.println(y);
+	}
+}
