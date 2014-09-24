@@ -1,0 +1,11 @@
+
+public class class1 {
+	public static void main(String args[]) {
+		int x = (8 * 42);
+		int y = (x * 2);
+		System.out.println("hey world idiot"); //Hello World!
+		System.out.println("second line\n\n"); //Testing linebreaks.
+		System.out.println("fifth line. Nothing in lines 3 and 4."); //Verifying that the last 2 lines were blank.
+		System.out.println(y); //Testing printing variables as defined above.
+	}
+}
