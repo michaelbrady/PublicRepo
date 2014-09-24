@@ -1,0 +1,21 @@
+import java.util.Scanner;
+public class Class1 {
+		public static void main(String args[]) {
+			int x, y, z, a, b;
+			System.out.println("Please enter an integer: ");
+			Scanner scn = new Scanner(System.in);
+			x = scn.nextInt();
+			System.out.println("\nYou have entered: " +x);
+			y = (x * 10);
+			z = (x * 25);
+			a = (y + z);
+			b = (z - y);
+			System.out.println(x +" multiplied by 10 equals " +y);
+			System.out.println(x +" multiplied by 25 equals " +z);
+			System.out.println("The sum of " +y +" and " +z +" is equal to " +a);
+			System.out.println("The difference between " +y +" and " +z +" is equal to " +b);
+			System.out.println("...And if you were ever wondering what 5 divided by 2 is...");
+			float c=5, d=2, f=c/d;
+			System.out.println("Here is your answer: " +f);
+		}
+}
